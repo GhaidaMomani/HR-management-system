@@ -49,17 +49,19 @@ const employee7= new employee(1000,"Hadi Ahmad","Finance","Mid-Senior")
 
 
 
-employee.prototype.render =function(){
-    document.write(`
-        <h2>Employee!</h2>
-        <p>${this.id}</p>
-        <p>${this.fullName}</p>
-        <p>${this.department}</p>
-        <p>${this.level}</p>
-        <p>${this.salary}</p>
-        `);
-    }
 
+alert("heloooo");
+
+
+    employee.prototype.render = function () {
+        document.write(
+         ` <p>${this.id}</p>`
+          `<p>${this.fullName}</p>`
+          `<p>${this.department}</p>`
+          `<p>${this.level}</p>`
+          `<p>${this.salary}</p>`
+        );
+      };
 
 
   
