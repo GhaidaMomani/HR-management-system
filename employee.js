@@ -3,7 +3,7 @@ function employee(id, fullName, department, level, ImageURL, salary) {
   this.fullName = fullName;
   this.department = department;
   this.level = level;
-  //this.ImageURL = `./images/${this.id}.PNG`;
+  this.ImageURL = `./images/${this.id}.PNG`;
   this.salary = this.calcSalary(this.level);
 }
 
@@ -45,3 +45,8 @@ employee.prototype.render = function () {
     ` <p>${this.id}</p>``<p>${this.fullName}</p>``<p>${this.department}</p>``<p>${this.level}</p>``<p>${this.salary}</p>`
   );
 };
+
+
+
+
+
