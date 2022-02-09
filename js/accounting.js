@@ -50,3 +50,5 @@ employee.prototype.calcSalary = function (lvl) {
     window.localStorage.setItem(key,JSON.stringify(car));  
     //converting object to string
 }
+
+
